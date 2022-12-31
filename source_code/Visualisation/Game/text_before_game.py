@@ -19,6 +19,11 @@ colors = [red, yellow, green]
 
 
 def countdown(number):
+    """
+
+    :param number: current scorer
+    :return: draws score in the screen
+    """
     if number == 4:
         clock.tick(1)
         m_eng.screen.fill((0, 0, 0))
